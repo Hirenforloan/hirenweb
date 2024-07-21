@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiren's Professional Services</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+nav {
+display: flex;
+justify-content: center;
+background-color: #333;
+}
+nav a {
+color: white;
+padding: 1rem;
+text-decoration: none;
+text-align: center;
+}
+nav a:hover {
+background-color: #575757;
+}
+.container {
+padding: 2rem;
+}
+.section {
+margin-bottom: 2rem;
+background-color: white;
+padding: 2rem;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+text-align: center;
+padding: 1rem;
+background-color: #333;
+color: white;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Hiren's Professional Services</h1>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="container">
+<div id="about" class="section">
+<h2>About</h2>
+<p>Hi, I'm Hiren. I am working as a loan services provider and also want to start mutual fund services. I am dedicated to helping individuals and businesses secure the financial support they need to achieve their goals.</p>
+</div>
+<div id="services" class="section">
+<h2>Services</h2>
+<ul>
+<li>Business Loans</li>
+<li>Unsecured Loans</li>
+<li>Loan Services</li>
+<li>Mutual Fund Services</li>
+</ul>
+</div>
+<div id="projects" class="section">
+<h2>Projects</h2>
+<p>Coming soon...</p>
+</div>
+<div id="contact" class="section">
+<h2>Contact</h2>
+<p>You can reach me at <a href="mailto:hiren@example.com">hiren@example.com</a> for any inquiries or further information about my services.</p>
+</div>
+</div>
+<footer>
+<p>&copy; 2024 Hiren's Professional Services</p>
+</footer>
+</body>
+</html>
